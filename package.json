@@ -1,0 +1,27 @@
+{
+  "name": "sf-promise-gateway",
+  "version": "0.9.0",
+  "description": "Soundfile.io Promise Batch Processing Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test.js"
+  },
+  "keywords": [
+    "promise",
+    "batch",
+    "soundfile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wirrareka/sf-promise-gateway"
+  },
+  "author": "Matej Drzik <matej@soundfile.io>, Soundfile.io",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "chai-as-promised": "^6.0.0"
+  }
+}
